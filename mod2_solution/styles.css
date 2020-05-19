@@ -4,7 +4,7 @@
 {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 /********** Headers **********/
@@ -19,7 +19,6 @@ h2 {
   position: absolute;
   margin: auto;
   text-align: center;
-  vertical-align: middle;
   font-family: comic sans MS, sans-serif;
   font-weight: bold;
   float: none;
@@ -38,20 +37,12 @@ p {
 
 .row {
   width: 99%;
-  padding-left: 1%;
+  padding-left: 2%;
 }
 
 /******* Sections *******/
 
-.section {
-  background-color: #c5c8ce;
-  position: relative; 
-  font-family: sans-serif;
-  font-color: black;
-  border: 1px solid black;
-  margin-left: 10px;
-  margin-bottom: 18px;
-  margin-right: 10px;
+
 }
 
 .chicken {
@@ -81,7 +72,7 @@ p {
   border-bottom: 1px solid black;
 }
 
-/* Simple Responsive Framework. */
+/* Simple Responsive Framework */
 
 /********** Large devices only **********/
 
